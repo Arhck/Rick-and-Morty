@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-size: 100% 100%;
+  background-image: url(./files/bg.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.App-logo {
+  /* position: absolute; */
+  top: 1%;
+  height: 214px;
+  width: 502px;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 15px;
+}

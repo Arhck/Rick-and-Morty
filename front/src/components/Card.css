@@ -1,0 +1,49 @@
+.card {
+  /* Estilos para o card */
+  border: 2px solid #606060;
+  background: linear-gradient(to left, #1b1b1b, rgb(77, 75, 75), #1b1b1b);
+ display: hidden;
+  width: 224px;
+  height: 224px;
+  top: 469px;
+  left: 734px;
+  border-radius: 8px;
+  z-index: 1;
+  cursor: pointer;
+}
+.card:hover{
+  border: 2px solid #CBD736;
+  text-decoration: underline white;
+
+}
+.img-perfil {
+  width: 224px;
+  height: 169px;
+  padding-right: 4px;
+  margin: none;
+  border-radius: 6px;
+  border: 2px;
+  z-index: 0;
+}
+.name {
+  font-family: Seravek;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.species {
+  font-family: Seravek;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 6px;
+}
